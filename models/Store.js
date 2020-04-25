@@ -26,8 +26,8 @@ const StoreSchema = new mongoose.Schema({
         formattedAddress: String
     },
     createdAt: {
-       type: Data,
-       default: Data.now
+       type: Date,
+       default: Date.now
     }
 });
 
