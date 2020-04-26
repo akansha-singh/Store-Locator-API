@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Store Locator</title>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+
+    <title>Store Locator - Add Store</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container my-3">
+        <h3 class="display-4 text-center"><i class="fas fa-map-marked mr-4"></i>Store Locator</h3>
+        <a href="add.html" class="btn btn-success mb-4">Add Store</a>
+        <div id='map' style='width: 100%; height: 500px;border-radius: 5px;'></div>
+     </div>
+
+    <script src="js/map.js"></script>
+    
 </body>
 </html>
+
+
+
+
